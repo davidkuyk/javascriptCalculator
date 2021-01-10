@@ -1,0 +1,59 @@
+#root {
+  background: #7ab071;
+}
+
+.container-fluid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 400px;
+}
+
+.container {
+  display: block;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+.container div  {
+  font-weight: bold;
+  font-family: Courier New, sans-serif;
+  font-size: 30px;
+  background-color: #b0717b;
+  color: black;
+}
+
+#sofar {
+  color: #aba9a8;
+  background: black;
+  font-size: 18px;
+  text-align: right;
+  padding: 5px;
+  height: 2rem;
+}
+
+#display {
+  text-align: right;
+  padding: 5px;
+  color: white;
+  background: black;
+}
+
+#clear {
+  background: #7183b0;
+}
+
+#equals {
+  height: 132px;
+  background-color: #7183b0;
+}
+
+.but {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  cursor: pointer;
+  border: 2px solid black;
+}
